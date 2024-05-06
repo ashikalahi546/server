@@ -63,6 +63,7 @@ const bidsCollections = client.db('solosphere').collection('bids')
   } finally {
     // Ensures that the client will close when you finish/error
     // await client.close();
+    // await client.close();
   }
 }
 run().catch(console.dir);
